@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formularios- Pablo Alberto Vega- 602</title>
+</head>
+<body>
+<h2>FORMULARIOS</h2>
+<h4>Por: Pablo Alberto Vega - 602</h4>
+<p>Los formularios son campos que permiten el ingreso de datos a la pagina, esto permite la interaccion con el usuario.</p>
+<hr>
+
+<form method="get">
+	<label>Nombre:</label>
+	<input type="text" name="nombre" placeholder="nombre completo" size="50" required>
+	<br>
+
+	<label>Correo electronico</label>
+	<input type="email" name="correo" placeholder="escribe tu correo" size="50" required>
+	<br>
+
+	<label>Contraseña:</label>
+	<input type="password" name="clave" placeholder="minimo 8 caracteres" minlength="8">
+	<br>
+
+	<label>Nacionalidad</label>
+	<select>
+		<option selected disabled>Selecciona Pais</option>
+			<option>Mexico</option>
+			<option>Suiza</option>
+			<option>Norcorea</option>
+			<option>Estados Unidos</option>
+			<option>Peru</option>
+			<option>Bolivia</option>
+			<option>Brasil</option>
+			<option>China</option>
+			<option>Fracia</option>
+	</select>
+	<br>
+
+	<label>Selecciona tus pasatiempos</label> <br>
+	<input type="checkbox" name="">leer
+	<input type="checkbox" name="">escuchar musica
+	<input type="checkbox" name="">pintar
+	<input type="checkbox" name="">escribir
+	<input type="checkbox" name="">mirar peliculas
+	<br>
+
+	<label>Genero</label>
+	Hombre <input type="radio" name="genero">
+	mujer <input type="radio" name="genero">
+	Prefiero no decirlo <input type="radio" name="genero">
+	<br>
+
+	<label>Sube tu foto:</label>
+	<input type="file" name="archivo">
+	<br>
+
+	<label>Escribe un mensaje</label>
+	<br>
+
+	<textarea required placeholder="esbribe tu mensaje"></textarea>
+
+	<br>
+	<br>
+	<input type="submit" name="boton" value="Contacta al 602">
+	<input type="reset" name="limpiar">
+</form>
+
+
+
+<a href="../index.html">Irse de la pagina</a>
+
+
+</body>
+</html>
